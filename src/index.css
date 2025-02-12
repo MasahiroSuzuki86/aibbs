@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 基本的なスタイルのリセット */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  color: #333; /* デフォルトの文字色を濃いグレーに */
+  background-color: #f3f4f6; /* 背景色を薄いグレーに */
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
